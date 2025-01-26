@@ -13,3 +13,16 @@
 i{
   font-family: FontAwesome;
 }
+.team-members {
+  display: flex;
+  flex-wrap: wrap; /* Allows wrapping to the next line if necessary */
+  gap: 20px; /* Adds spacing between spans */
+}
+
+.team-members span {
+  display: inline-block;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #ccc; /* Optional: adds a border for better visibility */
+  border-radius: 8px; /* Optional: rounded corners */
+}
